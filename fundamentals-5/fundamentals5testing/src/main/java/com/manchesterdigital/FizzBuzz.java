@@ -16,7 +16,7 @@ public class FizzBuzz {
         return number.toString();
 
     }
-
+//array extension.
     public static String [] fizzBuzzArray(int [] arr){
 
         String [] answers = new String[arr.length];
