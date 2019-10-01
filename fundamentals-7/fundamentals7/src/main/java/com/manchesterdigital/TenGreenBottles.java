@@ -19,7 +19,7 @@ public class TenGreenBottles {
         numbers.add("ONE");
         numbers.add("NO");
 
-        for (int i = 0; i <= 10 ; i++) {
+        for (int i = 0; i < 10 ; i++) {
 
             verse(numbers.get(i), numbers.get(i+1));
         }
@@ -38,6 +38,8 @@ public class TenGreenBottles {
     }
 
     private static void verse(String number, String numMinusOne){
+
+        //String numMinusOne;
 
         System.out.println(number + " GREEN BOTTLES HANGING ON THE WALL");
         System.out.println(number + " GREEN BOTTLES HANGING ON THE WALL");
