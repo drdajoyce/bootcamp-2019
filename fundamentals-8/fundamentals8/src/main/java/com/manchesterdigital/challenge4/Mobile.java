@@ -1,4 +1,4 @@
-package com.manchesterdigital;
+package com.manchesterdigital.challenge4;
 
 public class Mobile extends Device implements PowerControls, StandbyControls, VolumeControls {
     public Mobile(String deviceName, Long serialNumber) {

@@ -1,4 +1,4 @@
-package com.manchesterdigital;
+package com.manchesterdigital.challenge4;
 
 import java.util.Arrays;
 import java.util.List;

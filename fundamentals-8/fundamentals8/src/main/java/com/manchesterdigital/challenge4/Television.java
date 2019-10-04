@@ -1,4 +1,6 @@
-package com.manchesterdigital;
+package com.manchesterdigital.challenge4;
+
+import com.manchesterdigital.challenge4.*;
 
 public class Television extends Device implements PowerControls, StandbyControls, VolumeControls, ChannelControls {
 
