@@ -24,6 +24,7 @@ public class WhileExample {
 
         sumAverage(3);
         sumAverage(100);
+        sumAverageLooper();
 
     }
 
@@ -38,6 +39,12 @@ public class WhileExample {
         }
 
         System.out.println("Sum is " + sum + " and average is " + average);
+    }
+
+    private static void sumAverageLooper(){
+        for (int i = 1; i <= 100 ; i++) {
+            sumAverage(i);
+        }
     }
 
 

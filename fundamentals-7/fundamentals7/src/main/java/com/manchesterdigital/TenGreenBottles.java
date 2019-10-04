@@ -24,17 +24,6 @@ public class TenGreenBottles {
             verse(numbers.get(i), numbers.get(i+1));
         }
 
-
-
-
-
-
-
-
-
-
-
-
     }
 
     private static void verse(String number, String numMinusOne){

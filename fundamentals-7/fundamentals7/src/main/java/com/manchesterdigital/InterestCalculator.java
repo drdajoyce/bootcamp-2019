@@ -11,15 +11,7 @@ public class InterestCalculator {
 //            System.out.println(calculateInterest(amount, i));
 //        }
 
-        int total = 0;
-
-        for (int i = 1; i <= 500; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
-                    total += i;
-                System.out.println(i);
-            }
-        }
-        System.out.println(total);
+        factorOfFifteen();
 
         System.out.println(stringTimes("Hi",2));
         System.out.println(stringTimes("Hi",4));
@@ -33,6 +25,18 @@ public class InterestCalculator {
         }
 
         return large.toString();
+    }
+
+    private static void factorOfFifteen(){
+        int total = 0;
+
+        for (int i = 1; i <= 500; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                total += i;
+                System.out.println(i);
+            }
+        }
+        System.out.println(total);
     }
 
 

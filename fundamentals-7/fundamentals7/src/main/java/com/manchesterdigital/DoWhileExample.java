@@ -24,34 +24,41 @@ public class DoWhileExample {
 //        } while(i <= 7); // do while challenge.
 
 
-        //Challenge 7: factorial example
-//        int f = 1;
-//        int i = 1;
-//        do {
-//            f *= i;
-//            System.out.println(f);
-//            i++;
-//
-//
-//        } while(f <= 100000); //Challenge 7 factorial example
+        fibonacciChallenge(1000);
+        factorialChallenge(10000);
+    }
 
-
-        //Challenge 4 fibonacci.
+    private static void fibonacciChallenge(int limit){
         int a = 0;
         int b = 1;
-        int c; //c is 1
+        int c = 1;
 
         System.out.println(a);
-        System.out.println(b);
+
         do{
-            c = a + b;
             System.out.println(c);
+            c = a + b;
+//            if (c > limit){
+//                break;
+//            }
             a = b;
             b = c;
 
 
-        }while (c <= 100 ); //Challenge 4 fibonacci.
+        }while (c <= limit);
+    }
 
+    private static void factorialChallenge(int limit){
+        int f = 1;
+        int i = 1;
+        do {
+            System.out.println(f);
+            f *= i;
+
+            i++;
+
+
+        } while(f <= limit);
     }
 
 
